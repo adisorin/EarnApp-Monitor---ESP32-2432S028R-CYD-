@@ -53,11 +53,7 @@ Funcția `fetchEarnAppData()` face 3 tipuri de cereri cu `WiFiClientSecure` + `s
 - **c) Fallback-uri inteligente dacă (b) e gol:**
     - `/api/user_data/`
     - `/api/device_statuses?appid=earnapp&version=1.676.514` (tratează atât JsonArray cât și JsonObject)
-
-**Funcția `isRealOnline(JsonObject obj)`:** Detectare ONLINE/OFFLINE REALĂ, nu presupusă:
-Verifică în ordine: `online`, `is_online`, `connected`, `is_active`, `status`/`state` ca string (online/active/connected/running/ok vs offline/inactive/disabled/disconnected)
-
-**Anti-fake:** A fost eliminat bug-ul clasic `d["rate"] = $5.00` - se folosesc doar câmpuri reale `earned`, `earned_total`.
+    - 
 
 #### 3. Afișare TFT
 - `drawUIStaticElements()` - desenează scheletul UI cu carduri rotunjite și culori RGB565 custom
