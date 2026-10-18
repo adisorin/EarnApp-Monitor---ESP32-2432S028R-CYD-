@@ -117,6 +117,9 @@ Real-time hardware monitor for EarnApp, built on ESP32-2432S028R CYD (Cheap Yell
 
 The project displays balance, total earnings, online/offline devices and payment status directly on the TFT and via a modern Web Interface, no external app needed.
 
+![Platform](https://img.shields.io/badge/Platform-ESP32-blue) ![Display](https://img.shields.io/badge/Display-ILI9341%20320x240-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+
+
 ---
 
 ### 📸 Preview
