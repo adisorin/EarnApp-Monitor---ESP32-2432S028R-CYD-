@@ -1,3 +1,7 @@
+
+<img width="946" height="2049" alt="WhatsApp Image 2026-10-18 at 09 41 06" src="https://github.com/user-attachments/assets/48c3dd66-e31d-4ceb-8e6b-851c97bca560" />
+
+
 # EarnApp Monitor - ESP32-2432S028R (CYD)
 
 Monitor hardware în timp real pentru EarnApp, construit pe placa ESP32-2432S028R CYD (Cheap Yellow Display) cu display ILI9341 + Touch XPT2046.
