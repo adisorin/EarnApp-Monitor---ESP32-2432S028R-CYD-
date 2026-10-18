@@ -1,10 +1,11 @@
 
-<img width="946" height="2049" alt="WhatsApp Image 2026-10-18 at 09 41 06" src="https://github.com/user-attachments/assets/48c3dd66-e31d-4ceb-8e6b-851c97bca560" />
-<img width="946" height="2049" alt="WhatsApp Image 2026-10-18 at 09 41 06" src="https://github.com/user-attachments/assets/74f85b41-7830-49ad-944a-b24e6af2dd2e" />
 <img width="1536" height="2048" alt="WhatsApp Image 2026-10-18 at 09 43 13 (1)" src="https://github.com/user-attachments/assets/9654753b-629d-4749-92cc-2bfcc4084568" />
 <img width="1536" height="2048" alt="WhatsApp Image 2026-10-18 at 09 43 13 (2)" src="https://github.com/user-attachments/assets/9e8e32db-c0e0-45af-9926-a36d8658bb1c" />
 <img width="1536" height="2048" alt="WhatsApp Image 2026-10-18 at 09 43 13 (3)" src="https://github.com/user-attachments/assets/60a3a1cf-6e29-43d5-9b84-59b76aa3b234" />
-<img width="1536" height="2048" alt="WhatsApp Image 2026-10-18 at 09 43 13" src="https://github.com/user-attachments/assets/c729d903-8348-4bca-9bf9-78c9f408fbf1" />
+<img width="1536" height="2048" alt="WhatsApp Image 2026-10-18 at 09 43 13" src="https://github.com/user-attachments/assets/c729d903-8348-4bca-9bf9-78c9f408fbf1" /><img width="946" height="2049" alt="WhatsApp Image 2026-10-18 at 09 41 06 (1)" src="https://github.com/user-attachments/assets/f95cbe37-db33-46bb-9490-4ae81bc8c0ba" />
+<img width="946" height="2049" alt="WhatsApp Image 2026-10-18 at 09 41 06" src="https://github.com/user-attachments/assets/c8b3e40a-044d-48a8-8b1a-a9bf07bbb999" />
+
+
 
 
 # EarnApp Monitor - ESP32-2432S028R (CYD)
