@@ -1,9 +1,10 @@
-
 # EarnApp Monitor - ESP32-2432S028R (CYD)
 
 Monitor hardware în timp real pentru EarnApp, construit pe placa ESP32-2432S028R CYD (Cheap Yellow Display) cu display ILI9341 + Touch XPT2046.
 
 Proiectul afișează balanța, totalul câștigat, device-uri online/offline și statusul plăților direct pe ecranul TFT și printr-o interfață Web modernă, fără aplicații externe.
+
+![Platform](https://img.shields.io/badge/Platform-ESP32-blue) ![Display](https://img.shields.io/badge/Display-ILI9341%20320x240-orange) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -53,7 +54,11 @@ Funcția `fetchEarnAppData()` face 3 tipuri de cereri cu `WiFiClientSecure` + `s
 - **c) Fallback-uri inteligente dacă (b) e gol:**
     - `/api/user_data/`
     - `/api/device_statuses?appid=earnapp&version=1.676.514` (tratează atât JsonArray cât și JsonObject)
-    - 
+
+**Funcția `isRealOnline(JsonObject obj)`:** Detectare ONLINE/OFFLINE REALĂ, nu presupusă:
+Verifică în ordine: `online`, `is_online`, `connected`, `is_active`, `status`/`state` ca string (online/active/connected/running/ok vs offline/inactive/disabled/disconnected)
+
+**Anti-fake:** A fost eliminat bug-ul clasic `d["rate"] = $5.00` - se folosesc doar câmpuri reale `earned`, `earned_total`.
 
 #### 3. Afișare TFT
 - `drawUIStaticElements()` - desenează scheletul UI cu carduri rotunjite și culori RGB565 custom
@@ -96,6 +101,11 @@ Instalează din Library Manager:
 2. Loghează-te pe earnapp.com -> F12 -> Application -> Cookies -> copiază `oauth-token`, `oauth-refresh-token`, `xsrf-token`, `XSRF-TOKEN` în variabilele `earn_oauth_token` etc.
 3. Selectează Board: `ESP32 Dev Module`, Partition: `Default`
 4. Uploadează. La prima pornire atinge ecranul pentru calibrare.
+
+### 🔒 Securitate
+NU posta token-urile reale pe 【entity-GitHub¦canonical_name=GitHub】. Folosește `secrets.h` sau variabile de mediu.
+
+Licență: 【entity-MIT¦canonical_name=MIT】 - Copyright (c) 2026 adisorin
 
 
 -------------------------
