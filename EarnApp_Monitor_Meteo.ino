@@ -159,8 +159,8 @@ Adafruit_ILI9341 tft(TFT_CS, TFT_DC, TFT_RST); // Obiect display TFT
 
 
 // --- ADAUGARE METEO LUGOJ din COD 2 ---
-#define LUGOJ_LAT 45.6861
-#define LUGOJ_LON 21.9005
+#define LUGOJ_LAT 45.6861 //Change it for the area where you live.
+#define LUGOJ_LON 21.9005 //Change it for the area where you live.
 ///  https://api.open-meteo.com/v1/forecast?latitude=45.6861&longitude=21.9005&current=temperature_2m,wind_speed_10m,weather_code,cloud_cover,pressure_msl&timezone=auto  ///
 struct WeatherData {
   float temp = 0;
